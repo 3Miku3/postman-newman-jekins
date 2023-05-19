@@ -1,0 +1,13 @@
+{
+  "name": "postmantest",
+  "version": "1.0.0",
+  "description": "Project for storing postman test",
+  "scripts": {
+    "api-tests-production":"newman run jsonplaceholder.com.postman_collection.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^5.3.2"
+  }
+}
